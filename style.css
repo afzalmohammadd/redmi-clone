@@ -1,0 +1,93 @@
+body{
+    
+    margin: 0;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    
+}
+.logo{
+
+    border-radius: 11px;
+}
+
+.nav-item{
+    margin-left:20px;
+}
+
+.button1{
+    position: absolute;
+    top: 360px;
+    left: 165px;
+}
+
+
+.bannermain{
+    margin-top: 60px;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("./pngegg.png");
+  
+  }
+
+  .navbar-toggler{
+    border: none;
+    outline: none !important;
+    box-shadow: none;
+  }
+  .section2{
+    margin: 10px;
+  }
+  .sec1text{
+    font-size: 3vw;
+    transform: translateX(-50%) translateY(0);
+    position: absolute;
+    top: 737px;
+    left: 28%;
+  }
+
+  .sec2text{
+    font-size: 3vw;
+    position: absolute;
+    top: 779px;
+    left: 61%;
+  }
+  .sec-2-2{
+    height: 200px;
+  }
+.carousel-control-prev,
+.carousel-control-next{
+       filter: invert(100%);
+}
+
+ 
+
+@media screen and (min-width: 768px){
+    .bannerimg {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width: 767px){
+.button1{
+    transform: translateX(-50%) translateY(0);
+        text-align: center;
+        top: 120px;
+        left:50%;
+}
+.bannerimg {
+    height: 480px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+.sec1text{
+    font-size: 3vw;
+    transform: translateX(-50%) translateY(0);
+    position: absolute;
+    top: 665px;
+    left: 50%;
+  }
+
+
+}
